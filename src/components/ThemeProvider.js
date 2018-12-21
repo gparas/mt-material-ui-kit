@@ -50,15 +50,19 @@ class ThemeProvider extends Component {
       palette: {
         brand: {
           ...theme.palette.augmentColor({ main: '#173d9a' }),
+          contrastText: '#fff',
         },
         warning: {
           ...theme.palette.augmentColor({ main: '#F7981D' }),
+          contrastText: '#fff',
         },
         success: {
           ...theme.palette.augmentColor({ main: '#3ab449' }),
+          contrastText: '#fff',
         },
         marketing: {
           ...theme.palette.augmentColor({ main: '#02cfa5' }),
+          contrastText: '#fff',
         },
       },
     };
@@ -66,13 +70,13 @@ class ThemeProvider extends Component {
     theme = {
       ...mergedTheme,
       colors: {
+        brand: mergedTheme.palette.brand,
         primary: theme.palette.primary,
         secondary: theme.palette.secondary,
-        brand: mergedTheme.palette.brand,
-        error: theme.palette.error,
-        success: mergedTheme.palette.success,
-        warning: mergedTheme.palette.warning,
         marketing: mergedTheme.palette.marketing,
+        success: mergedTheme.palette.success,
+        error: theme.palette.error,
+        warning: mergedTheme.palette.warning,
       },
       overrides: {
         MuiAppBar: {
