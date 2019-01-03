@@ -7,8 +7,6 @@ import FloatingActions from '../UIKit/FloatingActions';
 import NavigationTabs from '../UIKit/NavigationTabs';
 import Badges from '../UIKit/Badges';
 
-import TextField from './TextField/TextField';
-
 const styles = theme => ({
   root: {
     maxWidth: 1140,

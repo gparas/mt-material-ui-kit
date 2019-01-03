@@ -65,6 +65,7 @@ CustomSwitch.propTypes = {
     'error',
     'warning',
     'success',
+    'marketing',
   ]),
   disabled: PropTypes.bool,
 };

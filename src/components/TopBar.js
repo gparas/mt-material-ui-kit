@@ -9,7 +9,7 @@ import Button from './Button/Button';
 import Switch from './Switch/Switch';
 
 function TopBar(props) {
-  const { handleSwitchChange, type } = props;
+  const { handleSwitchChange } = props;
   return (
     <AppBar>
       <Toolbar>

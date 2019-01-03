@@ -1,4 +1,4 @@
-import { fade, darken } from '@material-ui/core/styles/colorManipulator';
+import { fade } from '@material-ui/core/styles/colorManipulator';
 
 export function textVariant(theme, color) {
   return {
